@@ -1,0 +1,25 @@
+<testsuite failures="0" name="src/test/resources/features/koala.feature" skipped="0" tests="2" time="24.712287">
+  <testcase classname="src.test.resources.features.koala" name="reuse section" time="8.315956">
+    <system-out>Given driver 'http://www.seleniumeasy.com/test/' .......................... passed
+And waitFor("//*[@id=\'at-cv-lightbox-button-holder\']/a[2]") ............. passed
+And optional("//*[@id=\'at-cv-lightbox-button-holder\']/a[2]").click() .... passed
+And waitFor("//a[@class='dropdown-toggle'][contains(text(),'List Box')]") . passed
+And click("//a[@class='dropdown-toggle'][contains(text(),'List Box')]") ... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.resources.features.koala" name="04" time="16.396331">
+    <system-out>Given driver 'http://www.seleniumeasy.com/test/' .......................... passed
+And waitFor("//*[@id=\'at-cv-lightbox-button-holder\']/a[2]") ............. passed
+And optional("//*[@id=\'at-cv-lightbox-button-holder\']/a[2]").click() .... passed
+And waitFor("//a[@class='dropdown-toggle'][contains(text(),'List Box')]") . passed
+And click("//a[@class='dropdown-toggle'][contains(text(),'List Box')]") ... passed
+Given driver 'http://www.seleniumeasy.com/test/' .......................... passed
+* def res = call read('koala.feature@reuse') .............................. passed
+And waitFor("//ul[@class='dropdown-menu']//a[contains(text(),'JQuery List Box')]") . passed
+And click("//ul[@class='dropdown-menu']//a[contains(text(),'JQuery List Box')]") . passed
+And highlight("//option[contains(text(),'Alice')]") ....................... passed
+And click("//option[contains(text(),'Alice')]") ........................... passed
+And click("//button[@class='pAdd btn btn-primary btn-sm']") ............... passed
+And waitFor("//select[@class='form-control pickListSelect pickListResult']//option[contains(text(),'Alice')]") . passed
+Then print "Alice added" .................................................. passed</system-out>
+  </testcase>
+</testsuite>

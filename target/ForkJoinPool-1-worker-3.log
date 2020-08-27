@@ -1,0 +1,32 @@
+21:40:53.952 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:40:53.965 type was null, defaulting to 'chrome'
+21:40:59.213 waitUntil (js) - retry #1
+21:41:02.307 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:41:02.310 type was null, defaulting to 'chrome'
+21:41:02.311 preferred port 9222 not available, will use: 59537
+21:41:09.451 waitUntil (js) - retry #1
+21:41:18.705 [print] Alice added
+ing to 'chrome'
+21:40:00.802 preferred port 9222 not available, will use: 59360
+21:40:07.393 waitUntil (js) - retry #1
+21:40:16.680 waitUntil (js) - retry #1
+21:40:19.689 waitUntil (js) - retry #2
+21:40:22.708 waitUntil (js) - retry #3
+21:40:25.715 waitUntil (js): failed after 3 retries and 9037 milliseconds
+ifted
+19:46:02.227 [print] Dapibus ac facislislis shifted
+19:46:02.254 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:46:02.254 type was null, defaulting to 'chrome'
+19:46:02.256 preferred port 9222 not available, will use: 56501
+19:46:07.267 waitUntil (js) - retry #1
+19:46:10.982 waitUntil (js) - retry #1
+19:46:14.117 [print] Number of web elements:  1
+19:46:14.188 [print] Number of web elements:  6
+19:46:14.204 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:46:14.205 type was null, defaulting to 'chrome'
+19:46:14.206 preferred port 9222 not available, will use: 56570
+19:46:19.413 waitUntil (js) - retry #1
+19:46:25.594 waitUntil (js) - retry #1
+19:46:28.612 waitUntil (js) - retry #2
+19:46:31.629 waitUntil (js) - retry #3
+19:46:34.642 waitUntil (js): failed after 3 retries and 9050 milliseconds
